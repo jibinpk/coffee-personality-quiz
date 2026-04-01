@@ -244,7 +244,7 @@ export default function Home() {
                   cursor: "pointer",
                   fontFamily: "sans-serif",
                   fontSize: "15px",
-                  color: selected === opt.personality ? "var(--accent)" : "#6b4c2a",
+                  color: selected === opt.personality ? "var(--accent)" : "#c4a882",
                   fontWeight: selected === opt.personality ? "600" : "400",
                   textAlign: "left",
                 }}
@@ -301,7 +301,7 @@ export default function Home() {
           <div style={{ fontFamily: "sans-serif", fontSize: "13px", color: "var(--accent)", letterSpacing: "1px", marginBottom: "16px", fontStyle: "italic" }}>
             {p.tagline}
           </div>
-          <p style={{ fontFamily: "sans-serif", fontSize: "14px", color: "#6b4c2a", lineHeight: "1.6", marginBottom: "28px" }}>
+          <p style={{ fontFamily: "sans-serif", fontSize: "14px", color: "#c4a882", lineHeight: "1.6", marginBottom: "28px" }}>
             {p.description}
           </p>
 
